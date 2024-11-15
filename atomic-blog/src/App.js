@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { faker } from "@faker-js/faker";
 import { PostProvider, usePosts } from "./PostContext";
 
@@ -8,9 +8,26 @@ function createRandomPost() {
     body: faker.hacker.phrase(),
   };
 }
+
 function App() {
+  const [posts, setPosts] = useState(() =>
+    Array.from({ length: 30 }, () => createRandomPost())
+  );
+  const [searchQuery, setSearchQuery] = useState("");
   const [isFakeDark, setIsFakeDark] = useState(false);
-  // Whenever `isFakeDark` changes, we toggle the `fake-dark-mode` class on the HTML element (see in "Elements" dev tool).
+
+  // Derived state. These are the posts that will actually be displayed
+  const searchedPosts =
+    searchQuery.length > 0
+      ? posts.filter((post) =>
+          `${post.title} ${post.body}`
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase())
+        )
+      : posts;
+
+  // Whenever `isFakeDark` changes, we toggle the `fake-dark-mode` class on the HTML element (see in "Elements" dev
+  // tool).
   useEffect(
     function () {
       document.documentElement.classList.toggle("fake-dark-mode");
@@ -19,36 +36,37 @@ function App() {
   );
 
   return (
-    // TODO 发布上下文
     <section>
-
       <button
         onClick={() => setIsFakeDark((isFakeDark) => !isFakeDark)}
         className="btn-fake-dark-mode"
       >
         {isFakeDark ? "☀️" : "🌙"}
       </button>
+
       <PostProvider>
         <Header />
         <Main />
         <Archive />
         <Footer />
       </PostProvider>
-    </section >
+    </section>
   );
 }
 
 function Header() {
-  // TODO 使用上下文
-  const { onClearPosts } = usePosts();
+  const { posts, onClearPosts, searchQuery, setSearchQuery } = usePosts();
   return (
     <header>
       <h1>
         <span>⚛️</span>The Atomic Blog
       </h1>
       <div>
-        <Results />
-        <SearchPosts />
+        <Results posts={posts} />
+        <SearchPosts
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+        />
         <button onClick={onClearPosts}>Clear posts</button>
       </div>
     </header>
@@ -71,21 +89,19 @@ function Results() {
   return <p>🚀 {posts.length} atomic posts found</p>;
 }
 
-function Main() {
-  const { posts, onAddPost } = usePosts();
+const Main = memo(function Main({ posts, onAddPost }) {
   return (
     <main>
       <FormAddPost onAddPost={onAddPost} />
       <Posts posts={posts} />
     </main>
   );
-}
+});
 
-function Posts() {
-  const { posts } = usePosts();
+function Posts({ posts }) {
   return (
     <section>
-      <List />
+      <List posts={posts} />
     </section>
   );
 }
@@ -136,7 +152,11 @@ function List() {
 
 function Archive() {
   const { onAddPost } = usePosts();
-  // Here we don't need the setter function. We're only using state to store these posts because the callback function passed into useState (which generates the posts) is only called once, on the initial render. So we use this trick as an optimization technique, because if we just used a regular variable, these posts would be re-created on every render. We could also move the posts outside the components, but I wanted to show you this trick 😉
+  // Here we don't need the setter function. We're only using state to store these posts because the callback
+  // function passed into useState (which generates the posts) is only called once, on the initial render. So we use
+  // this trick as an optimization technique, because if we just used a regular variable, these posts would be
+  // re-created on every render. We could also move the posts outside the components, but I wanted to show you this
+  // trick 😉
   const [posts] = useState(() =>
     // 💥 WARNING: This might make your computer slow! Try a smaller `length` first
     Array.from({ length: 10000 }, () => createRandomPost())
@@ -168,7 +188,7 @@ function Archive() {
 }
 
 function Footer() {
-  return <footer>  &copy; by The Atomic Blog ✌️</footer>;
+  return <footer>&copy; by The Atomic Blog ✌️</footer>;
 }
 
 export default App;

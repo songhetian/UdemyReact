@@ -1,28 +1,27 @@
 import Sidebar from "./Sidebar.jsx";
 import Message from "./Message.jsx";
-import PropTypes from "prop-types";
-import CityItem from "./CityItem.jsx";
 import styles from "./CountryList.module.css";
+import CountryItem from "./CountryItem.jsx";
+import { useCities } from "../contexts/CitiesContext.jsx";
 
-CountryList.propTypes = {
-  cities: PropTypes.array.isRequired,
-  isLoading: PropTypes.bool.isRequired,
-};
-
-// CityList.defaultProps = {
-//   isLoading: false,
-//   cities: [],
-// };
-
-function CountryList({ cities, isLoading }) {
+function CountryList() {
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Sidebar />;
 
   if (!cities.length) return <Message message="No cities found." />;
 
+  const countries = cities.reduce((acc, city) => {
+    if (!acc.map((el) => el.country).includes(city.country)) {
+      return [...acc, { emoji: city.emoji, country: city.country }];
+    } else {
+      return acc;
+    }
+  }, []);
+
   return (
     <ul className={styles.countryList}>
-      {cities.map((city) => (
-        <CityItem key={city.id} city={city} />
+      {countries.map((country) => (
+        <CountryItem key={country.id} country={country} />
       ))}
     </ul>
   );

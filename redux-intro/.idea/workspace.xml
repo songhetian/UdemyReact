@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e51cdce-2db8-460f-9269-428cadd0c751" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../Tuts/dojo-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../Tuts/dojo-blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atomic-blog/src/App-memo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atomic-blog/src/App-memo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atomic-blog/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atomic-blog/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atomic-blog/src/PostContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/../atomic-blog/src/PostContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../changlle" beforeDir="false" afterPath="$PROJECT_DIR$/../changlle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classy-weather" beforeDir="false" afterPath="$PROJECT_DIR$/../classy-weather" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dojo-blog" beforeDir="false" afterPath="$PROJECT_DIR$/../dojo-blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eat-n-split" beforeDir="false" afterPath="$PROJECT_DIR$/../eat-n-split" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pizza-menu" beforeDir="false" afterPath="$PROJECT_DIR$/../pizza-menu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project01" beforeDir="false" afterPath="$PROJECT_DIR$/../project01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-quiz" beforeDir="false" afterPath="$PROJECT_DIR$/../react-quiz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../steps" beforeDir="false" afterPath="$PROJECT_DIR$/../steps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" afterPath="$PROJECT_DIR$/../test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel-list" beforeDir="false" afterPath="$PROJECT_DIR$/../travel-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usepopcorn" beforeDir="false" afterPath="$PROJECT_DIR$/../usepopcorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/.eslintrc.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/data/cities.json" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/data/cities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/hooks/useUrlPosition.js" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/hooks/useUrlPosition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/Timer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/AppNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/AppNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/AppNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/AppNav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/BackButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/BackButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/City.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/City.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/City.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/City.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/CityItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/CityItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/CityList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/CityList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/CountryItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/CountryItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/CountryList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/CountryList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/CountryList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/CountryList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Map.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Map.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/PageNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/PageNav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/PageNav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/PageNav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/components/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/components/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/contexts/CitiesContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/contexts/CitiesContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/contexts/FakeAuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/contexts/FakeAuthContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/AppLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/AppLayout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/Homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/Homepage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/Login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/Login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/PageNotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/PageNotFound.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/Pricing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/Pricing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/src/pages/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/src/pages/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../worldwise/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../worldwise/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ohIDEUr1MrOOomzY2J0lMhkdRC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/code/react/15-redux-intro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6e51cdce-2db8-460f-9269-428cadd0c751" name="更改" comment="" />
+      <created>1731315258606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731315258606</updated>
+      <workItem from="1731315259638" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
